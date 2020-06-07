@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { getStory } from "../services/hnApi";
-import { selectFields } from "../utils/selectFields";
+import { selectFields } from "../selectors/selectFields";
 import {
   StoryWrapper,
   StoryTitle,
   StoryMeta,
   StoryMetaElement,
 } from "../styles/StoryStyles";
+import { mapTime } from "../mappers/mapTime";
 
 const Story = ({ storyId }) => {
   const [story, setStory] = useState({});
@@ -29,7 +30,7 @@ const Story = ({ storyId }) => {
         </span>
         <span className="story__time" data-testid="story-time">
           <StoryMetaElement color="black">Posted: </StoryMetaElement>
-          {story.time}
+          {`${mapTime(story.time)} ago`}
         </span>
       </StoryMeta>
     </StoryWrapper>
