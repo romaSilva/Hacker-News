@@ -25,12 +25,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Aplicação desenvolvida com React, o usuário encontra uma lista de notícias recentes do mundo tecnologia vindas da [Hacker News API](https://github.com/HackerNews/API) com _infinite scrolling_. Esse projeto foi desenvolvido com base na aula lecionada por [Karl Hadwen](https://github.com/karlhadwen) com o intuito de praticar os conceitos mais avançados do [React](https://reactjs.org/).
+Aplicação desenvolvida com React, o usuário encontra uma lista de notícias recentes do mundo tecnologia vindas da [Hacker News API](https://github.com/HackerNews/API) com _infinite scrolling_. Esse projeto foi desenvolvido com base na aula lecionada por [Karl Hadwen](https://github.com/karlhadwen) com o intuito de praticar os conceitos mais avançados do [React](https://reactjs.org/)
 
 ## 🔥 Como usar
 - É necessário ter o [Node.js](https://nodejs.org/en/) e [npm](https://www.npmjs.com/) instalados
 - Clone esse repositório: `git clone https://github.com/romaSilva/Hacker-News.git`
-- Instale as dependências do projeto, digitando no termintal: `npm install`
+- Instale as dependências do projeto, digitando no terminal: `npm install`
 - Enfim, para rodar a aplicação digite: `npm start`
 ​
 
