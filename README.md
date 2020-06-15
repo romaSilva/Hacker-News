@@ -29,7 +29,7 @@ Aplicação desenvolvida com React, o usuário encontra uma lista de notícias r
 
 ## 🔥 Como usar
 - É necessário ter o [Node.js](https://nodejs.org/en/) e [npm](https://www.npmjs.com/) instalados
-- Clone esse repositório: `https://github.com/romaSilva/Hacker-News.git`
+- Clone esse repositório: `git clone https://github.com/romaSilva/Hacker-News.git`
 - Instale as dependências do projeto, digitando no termintal: `npm install`
 - Enfim, para rodar a aplicação digite: `npm start`
 ​
